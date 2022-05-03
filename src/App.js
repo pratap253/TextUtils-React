@@ -47,7 +47,7 @@ function App() {
     <>
     {/* <Navbar title="TextUtils" aboutText="About TextUtils" /> */}
     {/* <Navbar/> */}
-    <Router>
+  
       <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert}/>
       <div className="container my-3">
@@ -60,7 +60,6 @@ function App() {
         </Route>
       </Switch>
       </div>
-    </Router>
     </>
   )
 }
